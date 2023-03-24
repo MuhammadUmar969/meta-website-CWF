@@ -1,0 +1,941 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:400,700";
+
+body {
+    font-family: poppins,sans-serif;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    overflow-x: hidden;
+    width: auto;
+}
+
+#name{
+    color: #00d084;
+    font-size: 50px;
+    padding: 15px;
+    text-transform: uppercase;
+    padding-left: 150px;
+    font-weight: bold;
+}
+
+.nav-item{
+    font-size: 23px;
+    padding: 10px;
+    gap: 5px;
+    color: white;
+    position: sticky;
+}
+
+.nav-item:hover{
+    border-radius: 35px;
+    background-color: #00d099e8;
+    color: #fff;
+}
+
+.pic1{
+    background-image: url(./images/bg.avif);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.content{
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+
+}
+
+.content h1{
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.content p{
+   margin-top: 25px;
+   font-size: 20px;
+   word-spacing:2px;
+}
+
+.content button{
+     margin-top: 25px;
+     padding: 15px;
+     font-size: 20px;
+     font-weight: normal;
+     border-style: none;
+     border-radius: 150px;
+     background-color: #00d099e8;
+     color: #fff;
+     width: 200px;
+}
+
+.content button:hover{
+    color: #fff;
+    background-color:#00d084;
+}
+
+.section_heading{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase; 
+}
+
+.section-header .lines {
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 4px solid #00d084;
+    margin-top: 15px
+}
+
+
+.section-subtitle{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.item-boxes{
+    margin: 10px;
+}
+
+.item-boxes h4{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item-boxes p{
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.icon{
+    color: #00d084;
+    padding-left: 160px;
+    border-radius: 150px;
+    font-size: 30px;
+    margin: 20px 20px;
+}
+
+.icon:hover{
+    background-color: #00d084;
+    color: #fff;
+    border: 50%;
+}
+
+.features{
+    margin-top: 50px;
+    background-image: url(./images/mountain.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+
+.features .lines {
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 4px solid #00d084a3;
+    margin-top: 15px
+}
+.some{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.features p{
+    margin-top: 10px;
+    text-align: center;
+    color:white;
+}
+
+.text h4{
+    color:#00d084;
+    font-style: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.text p{
+    color:white;
+    font-style: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.features  i{
+    color:white;
+    font-size: 30px;
+    margin: 20px 20px;
+    background-color: #00d084;
+    padding-left: 150px;
+    border: 180px;
+    height: 40px;
+    width: 200px;
+}
+
+.features i:hover{
+    background-color: #26f7aa;
+    color:#fff;
+}
+
+.pricing h1{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.pricing p{
+    text-align: center;
+    margin-top: 15px;
+    font-style: 20px;
+}
+.pricing .lines{
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 4px solid #00d084;
+    margin-top: 15px
+}
+
+.pricing-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 40px;
+}
+
+
+.free:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.popular:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.premium:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pricing-card .tag{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.pricing-tag{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #00d084;
+}
+
+.card-text{
+  text-align: center;
+  font-size: 20px;
+}
+
+.card-body a{
+    margin: 30px 80px; 
+    padding: 10px;
+    color: #fff;
+    background-color:#00d084;
+    border-radius: 40px;
+    width: 150px;
+}
+
+.hours{
+    margin-top: 10px;
+    background-image: url(./images/office.avif);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffff;
+    opacity: 0.7;
+}
+
+.hours-icons{ 
+  margin: 100px 60px; 
+}
+
+.hours-icons i{
+    margin-left: 60px;
+    font-size: 60px;
+}
+
+.hours-icons h1{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.hours-icons h3{
+   margin-top: 25px;
+   font-size: 30px;
+}
+
+.projects{
+    margin: 100px 60px; 
+}
+
+.projects i{
+    margin-left: 100px;
+    font-size: 60px; 
+}
+
+.projects h1{
+    margin-top: 25px;
+   margin-left: 100px;
+   font-weight: bold;
+}
+
+.projects h3{
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.clients{
+    margin:100px 60px; 
+}
+
+.clients i{
+    margin-left: 80px;
+    font-size: 60px;
+}
+
+.clients h1{
+    margin-top: 25px;
+   margin-left: 60px;
+   font-weight: bold;
+}
+
+.clients h3{
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.love{
+    margin: 100px 60px; 
+}
+
+.love i{
+    margin-left: 60px;
+    font-size: 60px;
+}
+
+.love h1{
+   margin-top: 25px;
+   margin-left: 45px;
+   font-weight: bold;
+}
+
+.love h3{
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.team-heading h1{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.team-heading .lines{
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 4px solid #00d084;
+    margin-top: 15px;
+}
+
+.team-heading p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.team-pic{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.team-pic .card-body{
+    background-color: whitesmoke;
+}
+
+.team-pic .card-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.team-pic .card-body ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    margin-top: 20px;
+    color: #00d084;
+}
+
+.team-pic .card-body  i{
+    padding-left: 12px;
+}
+
+.team-pic .card-body ul li {
+    border-radius: 150px;
+    width: 35px;
+    background-color: #fff;
+}
+
+.team-pic .card-body ul .fb:hover{
+    background-color: rgb(21, 21, 195);
+    color: #fff;
+}
+
+.team-pic .card-body ul .twt:hover{
+    background-color: rgb(106, 186, 236);
+    color: #fff;   
+}
+
+.team-pic .card-body ul .gg:hover{
+    background-color: rgba(228, 15, 15, 0.704);
+    color: #fff;   
+}
+
+.team-pic .card-body ul .ln:hover{
+    background-color: rgba(87, 87, 235, 0.772);
+    color: #fff;   
+}
+
+.blog-heading h1{
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blog-heading .lines{
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 4px solid #00d084;
+    margin-top: 15px
+}
+
+.blog-heading p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.blog-pic{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:35px;
+}
+
+.blog-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-icons h1 ,i{
+    font-size: 20px;
+    color: rgb(157, 155, 155);
+    font-weight: normal;
+    text-align: center;
+}
+
+.blog-icons i{
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+.blog-icons h1{
+    padding-right: 25px;
+}
+
+.blog-pic .com:hover{
+    color: #00d084;
+    cursor: pointer;
+}
+
+.blog-pic .card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.blog-pic .card-text{
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 5px;
+    word-spacing: 2px;
+}
+
+.blog-pic a{
+   text-align: center;
+   list-style: none;
+   text-decoration: none;
+   color: rgb(157, 155, 155);
+   font-weight: 400;
+   font-size: 20px;
+}
+
+.contact{
+    margin-top: 80px;
+    height: 70vh;
+    background-color: darkslategray ;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-us{
+    margin-top: 30px;
+    padding-right: 100px;
+}
+
+.contact-us h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact-us h3{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contact-us p{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contact-us .num{
+    color: #00d084;
+    letter-spacing: 2px;
+}
+
+.contact-us ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 80px;
+    margin-top: 50px;
+    color: #00d084;
+    gap: 5px;
+}
+
+.contact-us  i{
+    padding: 10px 14px;
+}
+
+.contact-us ul li {
+    border-radius: 200px;
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+}
+
+.contact-us ul .fb:hover{
+    background-color: rgb(21, 21, 195);
+    color: #fff;
+}
+
+.contact-us ul .twt:hover{
+    background-color: rgb(106, 186, 236);
+    color: #fff;   
+}
+
+.contact-us ul .gg:hover{
+    background-color: rgba(228, 15, 15, 0.704);
+    color: #fff;   
+}
+
+.contact-us .ln:hover{
+    background-color: rgba(87, 87, 235, 0.772);
+    color: #fff;   
+}
+
+.contact-input{
+    margin: 40px 60px;
+    height: 40rem;
+    width: 40rem;
+}
+
+.contact-input .form-control {
+    border: 2px solid #fff;
+    background-color:  darkslategray ;
+}
+
+.contact-input .form-control:hover{
+    background-color:  darkslategray ;
+    border: 2px solid #fff;
+}
+
+.contact-input textarea{
+    border: 2px solid #fff;
+    background-color:  darkslategray ;
+}
+
+.contact-input button{
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 200px;
+    width: 200px;
+    height: 45px;
+    background-color: #00d084;
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.contact-input button:hover{
+    background-color: #07ac6f; 
+}
+
+footer{
+     overflow: hidden;
+     height: 33vh;
+    background-color: rgb(33, 46, 46);
+    color: #fff;
+}
+
+ footer ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 20px;
+    padding-top: 65px;
+ }
+
+
+footer ul li:hover{
+    color: #00d084;
+}
+
+footer p{
+    float: right;
+    margin: 10px 10px;
+    font-size: 20px;
+} 
+
+@media (max-width:786px){
+    body{
+        width: auto;
+    }
+    .pic1{
+      height: 80vh;
+      width: auto;
+    }
+    
+    .content h1{
+        font-size: 30px;
+    }
+
+    .content p{
+        font-size: 20px;
+    }
+
+    .content button{
+        border-radius: 150px;
+        width: 180px;
+   }
+  
+   .section_heading{
+    font-size: 35px;
+   }
+
+   .section h4{
+    font-size: 18px;
+   }
+
+   .section p{
+    font-size: 18px;
+   }  
+   
+   .icon{
+    padding-left: 70px;
+    font-size: 20px;
+}
+
+.features h3{
+  font-size: 30px;
+}
+
+.text h4,p{
+    font-size: 15px;
+}
+
+.thumb-pic{
+    display: none;
+}
+
+.pricing-card{
+    gap: 8px;
+}
+
+.pricing .tag ,.pricing-tag , .card-text{
+    font-size: 15px;
+}
+
+.pricing-card {
+    height: 25rem;
+}
+
+.pricing a{
+    width: 70px;
+    margin-left: 66px;
+}
+
+.hours i{
+    font-size: 30px;
+}
+
+.hours h1{
+    font-size: 30px;
+}
+
+.hours h3{
+    font-size: 16px;
+}
+
+
+.love{
+    margin-left: 2px;
+}
+
+.love h3{
+    padding-left: 10px;
+}
+
+.team-heading h1{
+  font-size: 30px;
+}
+
+.team-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 250px;
+    gap: 20px;
+}
+
+.blog-heading h1{
+    font-size: 30px;
+}
+.blog-pic{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 180px;
+}
+
+.contact{
+    margin-top: 80px;
+    height: 76vh;
+    background-color: darkslategray ;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-us{
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.contact-us h2{
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.contact-us h3{
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+.contact-us p{
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+.contact-us ul{
+  margin-left: 10px;
+}
+.contact-input{
+    margin: 20px 60px;
+    height: 30rem;
+    width: 30rem;
+}
+
+.contact-input button{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 160px;
+    width: 160px;
+    margin-left: 90px;
+    margin-top: 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li{
+    font-size: 15px;
+}
+
+footer p{
+    font-size: 15px;
+}
+}
+
+@media (max-width:576px){
+    body{
+        width: 100%;
+    }
+   .content button{
+        border-radius: 120px;
+        width: 120px;
+   }
+
+   .section_heading{
+    font-size: 28px;
+   }
+
+   .section h4{
+    font-size: 15px;
+   }
+
+   .section p{
+    font-size: 13px;
+   }   
+
+   .icon{
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.features h3{
+    font-size: 25px;
+  }
+  
+  .text h4,p{
+      font-size: 12px;
+  }
+
+  .features  i{
+    font-size: 20px;
+    padding-left: 80px;
+    border: 180px;
+    height: 25px;
+    width: 100px;
+}
+  .pricing-card{
+    display: flex;
+    height: 20rem;
+  }
+
+  .pricing-card .tag h2{
+    font-size: 12px;
+  }
+
+  .pricing ,.pricing-tag , .card-text{
+    font-size: 12px;
+}
+
+.pricing a{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+  .team-pic{
+    padding-left: 150px;
+}
+
+.blog-pic{
+    padding-left: 100px;
+}
+
+.contact{
+    height: 90vh;
+}
+.contact-us{
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.contact-us h2{
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.contact-us h3{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.contact-us p{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.contact-us ul{
+    margin-left: 1px;
+}
+
+  .contact-input{
+      margin: 20px 5px;
+      height: 30rem;
+      width: auto;
+  }
+  
+  .contact-input button{
+      padding: 5px;
+      font-size: 12px;
+      border-radius: 140px;
+      width: 140px;
+      margin-left: 50px;
+      margin-top: 1px;
+  }
+  
+  footer li{
+      font-size: 13px;
+  }
+  
+  footer p{
+      font-size: 13px;
+  }
+}
